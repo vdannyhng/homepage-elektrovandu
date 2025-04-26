@@ -21,7 +21,7 @@ export default function About() {
                     Dank unseres hervorragend geschulten Fachpersonals garantieren wir höchste Qualität, Sauberkeit und eine fachgerechte Ausführung nach den aktuellen deutschen <strong>VDE-DIN-Normen</strong>.
                 </p>	
                 <p>
-                    Als eingetragener Ausbildungsbetrieb der Handwerkskammer München bieten wir zudem jungen Menschen die Möglichkeit, eine qualifizierte Ausbildung in unserem Unternehmen zu absolvieren.
+                    Als eingetragener Ausbildungsbetrieb der Handwerkskammer Schwaben bieten wir zudem jungen Menschen die Möglichkeit, eine qualifizierte Ausbildung in unserem Unternehmen zu absolvieren.
                 </p>
                 <p>
                     Gerne beraten wir Sie umfassend zu allen Fragen rund um Elektroinstallationen und Automatisierungstechnik. 
