@@ -26,29 +26,6 @@ body {
   padding: 2rem;
 }
 
-/* Hero Section */
-.hero {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-}
-
-.hero h1 {
-  font-size: 3rem;
-  color: var(--primary-color);
-}
-
-.hero h2 {
-  font-size: 1.2rem;
-  color: #bbbbbb;
-  font-weight: bold;
-}
-
-.hero p {
-  font-size: 1.2rem;
-  color: #bbbbbb;
-  margin-bottom: 2rem;
-}
-
 .btn {
   display: inline-block;
   background-color: var(--primary-color);
