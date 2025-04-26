@@ -1,6 +1,7 @@
 /* Default values */
 :root {
   --primary-color: #96a06c;
+  --primary-color-hover: #4a6842;
   --background: linear-gradient(135deg, #1f1f1f 0%, #2c2c2c 100%);
 }
 
@@ -23,12 +24,6 @@
   align-items: center;
 }
 
-/* .navbar-logo { */
-  /* font-size: 1.5rem;
-  font-weight: bold;
-  color: #1d4ed8; */
-/* } */
-
 .logo-image {
   margin-left: 1.5rem;
   height: 50px;
@@ -36,13 +31,13 @@
 }
 
 .navbar-links a {
-  margin-left: 1.5rem;
+  margin-left: 1.8rem;
   font-weight: 500;
-  color: #4b5563; /* Grau */
+  color: var(--primary-color);
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .navbar-links a:hover {
-  color: #3b82f6; /* Hellblau bei Hover */
+  color: var(--primary-color-hover);
 }
