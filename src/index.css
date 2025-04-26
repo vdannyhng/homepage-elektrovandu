@@ -1,4 +1,4 @@
-/* Reset default */
+/* Reset default
 /* * {
   margin: 0;
   padding: 0;
@@ -8,6 +8,9 @@
 /* Default values */
 :root {
   --primary-color: #96a06c;
+  --primary-color-hover: #4a6842;
+  --background: linear-gradient(135deg, #1f1f1f 0%, #2c2c2c 100%);
+  --section-underline-color: #c7cc7c;
 }
 
 body {
@@ -25,6 +28,7 @@ body {
 
 /* Hero Section */
 .hero {
+  margin-top: 4rem;
   margin-bottom: 4rem;
 }
 
@@ -64,7 +68,7 @@ body {
 section h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  border-bottom: 2px solid #61dafb;
+  border-bottom: 2px solid var(--section-underline-color);
   display: inline-block;
   padding-bottom: 0.3rem;
 }
@@ -152,4 +156,4 @@ section h2 {
   color: #777777;
   padding: 2rem 0;
   border-top: 1px solid #333333;
-}
+} 

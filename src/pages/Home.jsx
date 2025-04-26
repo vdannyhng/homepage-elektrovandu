@@ -1,6 +1,6 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/NavBar"
-// import About from "../components/About";
+import About from "../components/About";
 // import Services from "../components/Services";
 // import Contact from "../components/Contact";
 // import Footer from "../components/Footer";
@@ -8,8 +8,9 @@ import Navbar from "../components/NavBar"
 export default function Home() {
   return (
     <div className="page">
-      <Hero/>
       <Navbar/>
+      <Hero/>
+      <About/>
       {/* <Hero />
       <About />
       <Services />
