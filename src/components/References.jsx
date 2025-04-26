@@ -18,35 +18,36 @@ export default function References() {
 			<div className="reference-list">
 				<div className="reference-card">
 					<h3>Handwerkskammer Schwaben</h3>
-					<p>Mitglied in der Handwerkskammer Schwaben</p>
+					<p>
+    					Als eingetragener Betrieb der <strong>Handwerkskammer Schwaben</strong> (HWK Schwaben) stehen wir für Qualität, Zuverlässigkeit und handwerkliches Können.  
+    					Unsere Arbeiten entsprechen den hohen Standards des deutschen Handwerks und werden regelmäßig durch Weiterbildungen und Prüfungen abgesichert.
+  					</p>
 					<div className="links">
-						<p>HWK Schwaben: <a href="https://github.com/vdannyhng-dev">vdannyhng-dev</a></p>						
+						<p>Link: <a href="https://www.hwk-schwaben.de">HWK Schwaben</a></p>						
                     </div>
 				</div>
 
 				<div className="reference-card">
 					<h3>E-Check</h3>
-					<p>Zertifizierte Durchführung von E-Check Messungen </p>
+					<p>
+    					Als zertifizierter Fachbetrieb führen wir den offiziellen <strong>E-Check</strong> für elektrische Anlagen und Geräte durch und dokumentieren den ordnungsgemäßen Zustand Ihrer Elektroinstallation gemäß den aktuellen VDE-Bestimmungen.
+    					Dieser schützt nicht nur vor möglichen Schäden durch elektrische Defekte, sondern wird auch von Versicherungen als wichtiger Nachweis anerkannt.
+  					</p>
 					<div className="links">
-						<p>E-Check: <a href="https://github.com/vdannyhng-dev">vdannyhng-dev</a></p>						
+						<p>Link: <a href="https://www.elektrohandwerk.de/privat/themen/e-check.html">E-Check</a></p>						
                     </div>
 				</div>
 
 				<div className="reference-card">
 					<h3>Elektroinnung</h3>
-					<p>This personal portfolio you're viewing now. Built with React and enough caffeine to fuel a small country.</p>
+					<p>
+  						Als Mitglied der <strong>Elektroinnung Lindau</strong> verpflichten wir uns zu höchsten Qualitätsstandards und kontinuierlicher Weiterbildung.  
+  						Damit garantieren wir Ihnen fachgerechte Ausführung nach den aktuellen Normen und Richtlinien des Elektrohandwerks.
+					</p>
 					<div className="links">
-						<p>Elektroinnungs: <a href="https://github.com/vdannyhng-dev">vdannyhng-dev</a></p>
+						<p>Link: <a href="https://www.elektroinnung-lindau.de/index.html">Elektroinnung Lindau</a></p>
 					</div>
     			</div>
-
-				<div className="reference-card">
-					<h3>Weather App</h3>
-					<p>React app fetching real-time weather data from the OpenWeather API. Warning: may depress you if it's raining.</p>
-					<div className="links">
-						<p>GitHub: <a href="https://github.com/vdannyhng-dev">vdannyhng-dev</a></p>
-					</div>
-				</div>
 			</div>
 		</section>
     );
