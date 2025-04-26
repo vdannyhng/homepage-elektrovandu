@@ -1,10 +1,4 @@
-/* Default values */
-:root {
-  --primary-color: #96a06c;
-  --primary-color-hover: #4a6842;
-  --background: linear-gradient(135deg, #1f1f1f 0%, #2c2c2c 100%);
-}
-
+/* About Section */
 .about {
-    margin-bottom: 4rem;
+  margin-bottom: 4rem;
 }
