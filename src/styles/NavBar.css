@@ -1,0 +1,48 @@
+/* Default values */
+:root {
+  --primary-color: #96a06c;
+  --background: linear-gradient(135deg, #1f1f1f 0%, #2c2c2c 100%);
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--background);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 50;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  /* font-size: 1.5rem;
+  font-weight: bold;
+  color: #1d4ed8; */
+}
+
+.logo-image {
+  margin-left: 1.5rem;
+  height: 50px;
+  width: auto;
+}
+
+.navbar-links a {
+  margin-left: 1.5rem;
+  font-weight: 500;
+  color: #4b5563; /* Grau */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #3b82f6; /* Hellblau bei Hover */
+}
