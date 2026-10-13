@@ -1,27 +1,29 @@
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { useEffect } from 'react';
 import '../styles/Customer.css';
 
-export default function Customer() {
-	useEffect(() => {
-		AOS.init({
-			duration: 1000, // animation duration in ms
-			once: true, // wheter animation should happen only once - while scrolling down
-		});
-	}, []);
+const customers = [
+    'GWG Lindauer Wohnungsgesellschaft mbH',
+    'Stadtwerke Lindau',
+    'Museum Lindau',
+    'Stadtbauamt Lindau',
+    'Privatkunden',
+];
 
+export default function Customer() {
     return (
-        /* About Section */
-        <section id="customer" className="customer" data-aos="fade-up" data-aos-delay="200">
-			<h2>Unsere Kunden</h2>
-		    <ul>
-                <li>GWG Lindauer Wohnungsgesellschaft mbH</li>
-                <li>Stadtwerke Lindau</li>
-                <li>Museum Lindau</li>
-                <li>Stadtbauamt Lindau</li>
-                <li>Privatkunden</li>
-            </ul>
-		</section>
+        <section id="customer" className="section customer">
+            <div className="container customer-inner">
+                <div className="customer-head" data-aos="fade-up">
+                    <span className="eyebrow">Unsere Kunden</span>
+                    <h2>Vertrauen aus der Region</h2>
+                    <p>Öffentliche Einrichtungen, Unternehmen und Privathaushalte setzen auf unsere Arbeit.</p>
+                </div>
+
+                <ul className="customer-list">
+                    {customers.map((name, i) => (
+                        <li key={name} data-aos="zoom-in" data-aos-delay={i * 80}>{name}</li>
+                    ))}
+                </ul>
+            </div>
+        </section>
     );
 }

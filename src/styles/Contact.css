@@ -1,0 +1,141 @@
+.contact {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse 50% 60% at 0% 100%, rgba(226, 219, 58, 0.1), transparent 70%),
+    var(--ink);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.contact-copy h2 {
+  font-size: clamp(2.6rem, 5.5vw, 4rem);
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.contact-copy p {
+  color: var(--text-on-dark-muted);
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+}
+
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.contact-cards {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.contact-cards li {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1.4rem 1.5rem;
+  border-radius: var(--radius);
+  background: var(--ink-2);
+  border: 1px solid var(--line-dark);
+  transition: border-color 0.25s ease;
+}
+
+.contact-cards li:hover {
+  border-color: rgba(226, 219, 58, 0.4);
+}
+
+.contact-icon {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: rgba(226, 219, 58, 0.12);
+  color: var(--accent);
+}
+
+.contact-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.contact-label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-on-dark-muted);
+}
+
+.contact-value {
+  font-size: 1.15rem;
+  font-weight: 600;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+a.contact-value:hover {
+  color: var(--accent);
+}
+
+.contact-extra {
+  display: block;
+  font-size: 0.95rem;
+  color: var(--text-on-dark-muted);
+}
+
+.contact-extra a {
+  text-decoration: none;
+}
+
+.contact-photo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 2.5rem 0 0;
+}
+
+.contact-photo img {
+  width: 84px;
+  height: 84px;
+  object-fit: cover;
+  object-position: 70% 25%;
+  border-radius: 50%;
+  border: 3px solid var(--accent);
+}
+
+.contact-photo figcaption {
+  color: var(--text-on-dark-muted);
+  font-size: 0.95rem;
+}
+
+.contact-photo strong {
+  display: block;
+  color: var(--text-on-dark);
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+@media (max-width: 960px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .contact-actions .btn {
+    flex: 1 1 200px;
+  }
+}
