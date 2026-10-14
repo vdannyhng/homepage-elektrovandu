@@ -45,7 +45,7 @@ npm run lint      # Code mit ESLint prüfen
 ## Projektstruktur
 
 ```
-public/                 Favicons und Web-Manifest
+public/                 Favicons, Vorschaubild (og-image.jpg), robots.txt, sitemap.xml
 src/
 ├── data/company.js     Zentrale Firmendaten (Name, Adresse, Telefon, E-Mail …)
 ├── components/         Abschnitte der Seite (Hero, Services, Gallery, Contact …)
@@ -61,6 +61,7 @@ src/
 | Was | Wo |
 |---|---|
 | Kontaktdaten, Inhaber, Gründungsjahr | [`src/data/company.js`](src/data/company.js) – wird überall auf der Seite und im Impressum verwendet |
+| Firmendaten für Google & Teilen-Vorschau | [`index.html`](index.html) – bei geänderten Kontaktdaten hier ebenfalls anpassen |
 | Öffnungszeiten | `hours` in `company.js` eintragen – die Karte im Kontaktbereich erscheint dann automatisch |
 | Leistungen | Liste `services` in [`src/components/Services.jsx`](src/components/Services.jsx) |
 | Kunden | Liste `customers` in [`src/components/Customer.jsx`](src/components/Customer.jsx) |
