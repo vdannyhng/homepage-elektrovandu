@@ -35,10 +35,8 @@ export default function Datenschutz() {
       <section>
         <h2>3. Hosting und Server-Logfiles</h2>
         <p>
-          {company.hosting
-            ? <>Diese Website wird bei {company.hosting} gehostet.</>
-            : <>Diese Website wird bei einem externen Hosting-Dienstleister betrieben.</>}{" "}
-          Beim Aufruf der Website werden durch den Server automatisch Informationen erfasst, die Ihr
+          Diese Website wird bei Vercel Inc., 440 N Barranca Avenue #4133, Covina, CA 91723, USA
+          („Vercel“) gehostet. Beim Aufruf der Website werden durch den Server automatisch Informationen erfasst, die Ihr
           Browser übermittelt (sogenannte Server-Logfiles). Dazu gehören:
         </p>
         <ul>
@@ -52,8 +50,18 @@ export default function Datenschutz() {
           Diese Daten sind für die sichere und stabile Auslieferung der Website erforderlich, etwa zur
           Abwehr von Angriffen. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO; unser berechtigtes Interesse
           liegt im sicheren Betrieb der Website. Die Logfiles werden nach kurzer Zeit automatisch gelöscht,
-          sofern sie nicht zur Aufklärung eines Sicherheitsvorfalls benötigt werden. Mit dem Hoster besteht
-          ein Vertrag zur Auftragsverarbeitung gemäß Art. 28 DSGVO.
+          sofern sie nicht zur Aufklärung eines Sicherheitsvorfalls benötigt werden.
+        </p>
+        <p>
+          Die Auslieferung erfolgt in der Regel über Server in der EU (Frankfurt am Main). Da Vercel
+          ein Unternehmen mit Sitz in den USA ist, kann eine Übermittlung von Daten in die USA nicht
+          ausgeschlossen werden. Vercel ist nach dem EU-U.S. Data Privacy Framework zertifiziert; die
+          Übermittlung stützt sich damit auf den Angemessenheitsbeschluss der EU-Kommission (Art. 45 DSGVO).
+          Weitere Informationen:{" "}
+          <a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">
+            vercel.com/legal/privacy-policy
+          </a>
+          .
         </p>
       </section>
 

@@ -13,7 +13,6 @@ export const company = {
   email: "elektrovandu@aol.de",
   hours: null,
   vatId: null, // USt-IdNr., falls vorhanden
-  hosting: null, // Name und Anschrift des Hosting-Anbieters, sobald feststehend
 };
 
 export const telHref = (number) => `tel:${number.replace(/[^\d+]/g, "")}`;
