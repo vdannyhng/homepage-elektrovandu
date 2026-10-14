@@ -1,5 +1,3 @@
-import AOS from "aos";
-import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Navbar from "../components/NavBar";
 import Hero from "../components/Hero";
@@ -16,13 +14,6 @@ import { company } from "../data/company";
 
 export default function Home() {
   useEffect(() => {
-    AOS.init({
-      duration: 800,
-      once: true, // Animation nur beim ersten Scrollen abspielen
-      offset: 60,
-      disable: () => window.matchMedia("(prefers-reduced-motion: reduce)").matches,
-    });
-
     document.title = `${company.name} – Elektrofachbetrieb in ${company.city}`;
     // Beim Zurückkommen vom Impressum zum angeklickten Abschnitt springen
     const target = window.location.hash && document.getElementById(window.location.hash.slice(1));
