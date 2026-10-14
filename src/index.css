@@ -75,6 +75,8 @@ img {
 
 .section {
   padding: 6.5rem 0;
+  /* seitliche Einblend-Animationen dürfen nicht über den Rand ragen (sonst zoomen Handys heraus) */
+  overflow-x: clip;
 }
 
 .section--dark {

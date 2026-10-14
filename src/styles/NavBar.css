@@ -118,7 +118,7 @@
     align-items: stretch;
     gap: 0;
     padding: 0.5rem 1rem 1.25rem;
-    background: rgba(18, 22, 28, 0.97);
+    background: var(--ink);
     border-top: 1px solid var(--line-dark);
     display: none;
   }
