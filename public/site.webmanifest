@@ -1,0 +1,11 @@
+{
+  "name": "Elektro Van Du",
+  "short_name": "Elektro Van Du",
+  "icons": [
+    { "src": "/favicon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/favicon-512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#12161c",
+  "background_color": "#12161c",
+  "display": "browser"
+}
